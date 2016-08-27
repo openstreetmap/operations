@@ -8,3 +8,6 @@ The OpenStreetMap [Chef](https://www.chef.io/) cookbooks used to automate the co
 
 ### Server Monitoring
 The servers are monitored using [munin](http://munin.openstreetmap.org/) and [pingdom](http://stats.pingdom.com/p310g2klasry).
+
+### Current Hardware
+A [list of current OSMF hardware](https://hardware.openstreetmap.org/) is automatically built from Chef.
