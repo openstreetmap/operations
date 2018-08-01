@@ -35,12 +35,12 @@ IEC power cables
 - 12 disk trays made from stamped steel
 - 11 3.5" HP disk trays
 - 1 broken 3.5" HP disk tray
-- 1 HP flash backed write cache, PN 571436-002
-- 1 HP raid card PN 575227-B21 with FBWC PN 570502-002
+- 1 HP flash backed write cache for P410/DL360 G7/G7, PN 571436-002
+- 1 HP smart array P411 controller for MSA60 PN 575227-B21 with FBWC PN 570502-002
 - 4 HP fans
 
 ### On top of boxes
 - 2 750W HP supply in tray
 - Fujitsu CA06731-B100
 - 1 HP 146GB 10K SAS drive in tray
-- DB9 to 6 wire phone connector
+- APX PSU Serial DB9 to RJ12
