@@ -11,3 +11,10 @@ The servers are monitored using [munin](http://munin.openstreetmap.org/) and [pi
 
 ### Current Hardware
 A [list of current OSMF hardware](https://hardware.openstreetmap.org/) is automatically built from Chef.
+## In this respository
+
+Aside from issue tracking, there is some content in the repository itself. It's public, but targeted at internal use.
+
+## Data Centre information
+
+Some information about OSMF data centre locations is stored in this repository under [hosting/sites](hosting/sites).
