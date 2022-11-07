@@ -1,5 +1,3 @@
-# OSM username, server username, email, public key, paragraph.
-
 name: Dev server user account request
 description: Request an account on faffy (dev.openstreetmap.org)
 title: "[Account request]: "
@@ -32,7 +30,15 @@ body:
     attributes:
       label: OpenStreetMap username
       description: What username do you use on openstreetmap.org?
-      placeholder: ex. Firefishy
+      placeholder: e.g. Firefishy
+    validations:
+      required: true
+  - type: input
+    id: linuxusername
+    attributes:
+      label: Server username
+      description: What username do you want to use on dev.openstreetmap.org?
+      placeholder: e.g. sarah
     validations:
       required: true
   - type: textarea
