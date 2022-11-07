@@ -16,7 +16,7 @@ body:
       placeholder: Hello, my name is [...], and I like maps!
     validations:
       required: true
-- type: input
+  - type: input
     id: contact
     attributes:
       label: "Email address"
@@ -46,7 +46,7 @@ body:
       label: "Bio"
       description: Tell us a bit about what you want to use the dev server for
       render: markdown
-- type: textarea
+  - type: textarea
     id: sshkey
     attributes:
       label: "Public SSH key"
