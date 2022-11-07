@@ -1,9 +1,9 @@
-name: Dev server user account request
+name: "Dev server user account request"
 description: Request an account on faffy (dev.openstreetmap.org)
 title: "[Account request]: "
-labels: ["bug", "triage"]
+labels: ["faffy", "user request"]
 assignees:
-  - Firefishy
+  - "Firefishy"
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
   - type: input
     id: name
     attributes:
-      label: Name
+      label: "Name"
       description: What should we call you?
       placeholder: Hello, my name is [...], and I like maps!
     validations:
@@ -20,7 +20,7 @@ body:
 - type: input
     id: contact
     attributes:
-      label: Email address
+      label: "Email address"
       description: How can we get in touch with you?
       placeholder: ex. openstreetmap@example.com
     validations:
@@ -28,7 +28,7 @@ body:
   - type: input
     id: osmusername
     attributes:
-      label: OpenStreetMap username
+      label: "OpenStreetMap username"
       description: What username do you use on openstreetmap.org?
       placeholder: e.g. Firefishy
     validations:
@@ -36,7 +36,7 @@ body:
   - type: input
     id: linuxusername
     attributes:
-      label: Server username
+      label: "Username on the server"
       description: What username do you want to use on dev.openstreetmap.org?
       placeholder: e.g. sarah
     validations:
@@ -44,19 +44,19 @@ body:
   - type: textarea
     id: bio
     attributes:
-      label: Bio
+      label: "Bio"
       description: Tell us a bit about what you want to use the dev server for
       render: markdown
 - type: textarea
     id: sshkey
     attributes:
-      label: Public SSH key
+      label: "Public SSH key"
       description: Authentication key for ssh connections.
       placeholder: Begins with 'ssh-rsa', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'ssh-ed25519', 'sk-ecdsa-sha2-nistp256@openssh.com', or 'sk-ssh-ed25519@openssh.com'
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
+      label: "Code of Conduct"
       description: By submitting this account request, you agree to follow our [policies](https://operations.osmfoundation.org/policies/) and [codes of conduct](https://wiki.openstreetmap.org/wiki/Code_of_conduct). You agree to use the dev server only for OpenStreetMap-related work.
       options:
         - label: I agree to follow the OpenStreetMap policies and codes of conduct, and to use the dev server only for OpenStreetMap-related tasks
