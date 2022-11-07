@@ -7,8 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this account request! The dev server (faffy) is a powerful Ubuntu server for OpenStreetMap-related development. It also supports local mysql and postgresql databases, running cron jobs, and basic web hosting.
+      value: "Thanks for taking the time to fill out this account request! The dev server (faffy) is a powerful Ubuntu server for OpenStreetMap-related development. It also supports local mysql and postgresql databases, running cron jobs, and basic web hosting."
   - type: input
     id: name
     attributes:
