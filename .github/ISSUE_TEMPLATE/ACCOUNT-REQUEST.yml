@@ -1,4 +1,4 @@
-name: "Dev server user account request"
+name: "Dev Server Account Request"
 description: Request an account on faffy (dev.openstreetmap.org)
 title: "[Account request]: "
 labels: ["faffy", "user request"]
