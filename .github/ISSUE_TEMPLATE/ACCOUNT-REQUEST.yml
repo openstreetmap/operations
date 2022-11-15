@@ -1,13 +1,13 @@
 name: "Dev Server Account Request"
 description: Request an account on faffy (dev.openstreetmap.org)
-title: "[Account request]: "
+title: "Faffy account request"
 labels: ["faffy", "user request"]
 assignees:
   - "Firefishy"
 body:
   - type: markdown
     attributes:
-      value: "Thanks for taking the time to fill out this account request! The dev server (faffy) is a powerful Ubuntu server for OpenStreetMap-related development. It also supports local mysql and postgresql databases, running cron jobs, and basic web hosting."
+      value: "Thanks for taking the time to fill out this account request! The dev server (faffy) is a powerful Ubuntu server for OpenStreetMap-related development. It also supports local mysql and postgresql databases, running cron jobs, and basic web hosting. You *don't* need a shell account on the dev server to edit the map - just sign up on www.openstreetmap.org"
   - type: input
     id: name
     attributes:
