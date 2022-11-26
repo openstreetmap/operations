@@ -52,6 +52,8 @@ body:
       label: "Public SSH key"
       description: Authentication key for ssh connections.
       placeholder: Begins with 'ssh-rsa', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'ssh-ed25519', 'sk-ecdsa-sha2-nistp256@openssh.com', or 'sk-ssh-ed25519@openssh.com'
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
