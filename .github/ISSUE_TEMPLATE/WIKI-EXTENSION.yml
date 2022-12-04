@@ -1,0 +1,61 @@
+name: "Request mediawiki extension (wiki admins only)"
+description: Request a wiki extension (wiki admins only)
+title: "Wiki extension request"
+labels: ["service:wiki"]
+body:
+  - type: markdown
+    attributes:
+      value: "The OWG will consider mediawiki extension requests from Wiki admins. Wiki admins are responsible for any on-wiki processes around concensus to add the extension. The OWG will consider the operational costs of maintaining an extension, and have a strong bias to only enable modules that ship with Wikimedia itself."
+  - type: checkboxes
+    id: sysadmin
+    attributes:
+      label: ""
+      description: If you are not a wiki sysadmin, please ask one of them to fill out this form
+      options:
+        - label: I am a wiki sysadmin
+          required: true
+  - type: input
+    id: name
+    attributes:
+      label: "Extension name"
+      description: Name of Mediawiki extension?
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: "Extension website on medaiwiki.org"
+      description: Link to the extension page on mediawiki.org
+      placeholder: https://www.mediawiki.org/wiki/Extension:Foo
+    validations:
+      required: true
+  - type: input
+    id: mwversion
+    attributes:
+      label: "Minimum mediawiki version"
+      description: Minimum version of mediawiki the extension requires?
+      placeholder: 1.00+
+    validations:
+      required: true
+  - type: checkboxes
+    id: support
+    attributes:
+      description: "We require some information about the support status of the extension"
+      options:
+        - label: "The wiki extension is listed as release status: stable"
+        - label: "The extension is used on one or more Wikimedia projects"
+        - label: "The extension has versioned releases for the version of Mediawiki used by the OSMF, and for the latest version of Mediawiki"
+  - type: textarea
+    id: purpose
+    attributes:
+      label: "Purpose"
+      description: Describe the purpose of the extension on the OSM wiki
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: install
+    attributes:
+      label: "Special install instructions"
+      description: Any special install instructions
+      render: markdown
