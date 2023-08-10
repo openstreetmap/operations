@@ -60,3 +60,8 @@ body:
       label: "Special install instructions"
       description: Any special install instructions
       render: markdown
+  - type: textarea
+    id: uninstall
+    attributes:
+      label: Uninstall instructions
+      description: If we have to remove the extension after it has been in use because it is no longer supported or no longer working, what steps need to be taken to uninstall it without breaking pages?
