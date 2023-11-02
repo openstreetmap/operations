@@ -5,7 +5,7 @@ labels: ["service:wiki"]
 body:
   - type: markdown
     attributes:
-      value: "The OWG will consider mediawiki extension requests from Wiki admins. Wiki admins are responsible for any on-wiki processes around concensus to add the extension. The OWG will consider the operational costs of maintaining an extension, and have a strong bias to only enable modules that ship with Wikimedia itself."
+      value: "The OWG will consider MediaWiki extension requests from Wiki admins. Wiki admins are responsible for any on-wiki processes around concensus to add the extension. The OWG will consider the operational costs of maintaining an extension, and have a strong bias to only enable modules that ship with Wikimedia itself."
   - type: checkboxes
     id: sysadmin
     attributes:
@@ -18,13 +18,13 @@ body:
     id: name
     attributes:
       label: "Extension name"
-      description: Name of Mediawiki extension?
+      description: Name of MediaWiki extension?
     validations:
       required: true
   - type: input
     id: website
     attributes:
-      label: "Extension website on medaiwiki.org"
+      label: "Extension website on mediawiki.org"
       description: Link to the extension page on mediawiki.org
       placeholder: https://www.mediawiki.org/wiki/Extension:Foo
     validations:
@@ -32,8 +32,8 @@ body:
   - type: input
     id: mwversion
     attributes:
-      label: "Minimum mediawiki version"
-      description: Minimum version of mediawiki the extension requires?
+      label: "Minimum MediaWiki version"
+      description: Minimum version of MediaWiki the extension requires?
       placeholder: 1.00+
     validations:
       required: true
@@ -45,7 +45,7 @@ body:
       options:
         - label: "The wiki extension is listed as release status: stable"
         - label: "The extension is used on one or more Wikimedia projects"
-        - label: "The extension has versioned releases for the version of Mediawiki used by the OSMF, and for the latest version of Mediawiki"
+        - label: "The extension has versioned releases for the version of MediaWiki used by the OSMF, and for the latest version of MediaWiki"
   - type: textarea
     id: purpose
     attributes:
